@@ -1,0 +1,40 @@
+# ============================================================================
+# SYSTÈME DE CONTRÔLE D'ACCÈS BIOMÉTRIQUE
+# Fichier de dépendances Python
+# ============================================================================
+
+# Vision par ordinateur et reconnaissance faciale
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Traitement d'images
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Machine Learning pour la reconnaissance
+scikit-learn>=1.3.0
+
+# Base de données (SQLite est inclus dans Python standard)
+# Pas de dépendance externe requise
+
+# Interface graphique (Tkinter est inclus dans Python standard)
+# Pas de dépendance externe requise
+
+# Optionnel: pour des performances améliorées
+scipy>=1.11.0
+
+# Anti-spoofing et détection de vivacité (facultatif mais recommandé)
+# liveness-sdk>=1.0.0  # Optionnel: SDK anti-spoofing avancé
+
+# ============================================================================
+# INSTALLATION
+# ============================================================================
+# Exécutez la commande suivante dans le terminal:
+# pip install -r requirements.txt
+#
+# Si vous rencontrez des problèmes avec opencv-contrib-python:
+# pip install opencv-contrib-python --upgrade
+#
+# Pour une détection anti-spoofing plus robuste:
+# pip install liveness-sdk  # (optionnel)
+# ============================================================================
